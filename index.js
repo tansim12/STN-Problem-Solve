@@ -8,12 +8,12 @@ const result = (payload) => {
     ?.map((item) => item?.name);
   return filter;
 };
-const people = [
-  { name: "Alice", age: 25, gender: "female" },
-  { name: "Bob", age: 30, gender: "male" },
-  { name: "Charlie", age: 35, gender: "male" },
-  { name: "Diana", age: 28, gender: "female" },
-];
+// const people = [
+//   { name: "Alice", age: 25, gender: "female" },
+//   { name: "Bob", age: 30, gender: "male" },
+//   { name: "Charlie", age: 35, gender: "male" },
+//   { name: "Diana", age: 28, gender: "female" },
+// ];
 
 // console.log(result(people));
 
