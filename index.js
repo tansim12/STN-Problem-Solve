@@ -25,11 +25,11 @@ const result2 = (payload) => {
   const filter = payload?.map((item) => item?.title);
   return filter;
 };
-// const books = [
-//   { title: "The Great Gatsby", author: "F. Scott Fitzgerald", year: 1925 },
-//   { title: "To Kill a Mockingbird", author: "Harper Lee", year: 1960 },
-//   { title: "1984", author: "George Orwell", year: 1949 },
-// ];
+const books = [
+  { title: "The Great Gatsby", author: "F. Scott Fitzgerald", year: 1925 },
+  { title: "To Kill a Mockingbird", author: "Harper Lee", year: 1960 },
+  { title: "1984", author: "George Orwell", year: 1949 },
+];
 
 // console.log(result2(books));
 
